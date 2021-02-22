@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARGPSScene.unity
+    guid: 939f60bba255db5409def4e12e9af0b9
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 233fa4fe971785e4ebdc727c72205f62, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0de7d0e86ffdfa54485c5443a880e278, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c07509c4b9e29ab42baf81ffab7d2204, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: fe0d8abde8ea5064aaad8b4b79899fd1, type: 2}
