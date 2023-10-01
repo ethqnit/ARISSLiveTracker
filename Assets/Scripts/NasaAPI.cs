@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using System;
 public class NasaAPI : MonoBehaviour
 {
-    private string jsonURL = "https://api.n2yo.com/rest/v1/satellite/positions/25544/40.475/-80.142/0/2/&apiKey=7NBC6R-9NXAYA-B24DUM-4MRN";
+    private string jsonURL = "https://api.n2yo.com/rest/v1/satellite/positions/25544/40.475/-80.142/0/2/&apiKey=xxxxxxx";
      public Text StationName;
     public Text Longitude;
     public Text Latitude;
@@ -72,7 +72,7 @@ using (UnityWebRequest webRequest = UnityWebRequest.Get(jsonURL))
    
     
 
-  /*  private string url = "https://api.n2yo.com/rest/v1/satellite/positions/25544/40.475/-80.142/0/2/&apiKey=7NBC6R-9NXAYA-B24DUM-4MRN";
+  /*  private string url = "https://api.n2yo.com/rest/v1/satellite/positions/25544/40.475/-80.142/0/2/&apiKey=xxxxxxxx";
     public Text StationName;
     public Text Longitude;
     public Text Latitude;
